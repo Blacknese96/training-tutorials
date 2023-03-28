@@ -14,8 +14,10 @@ string inputOne = " Gregory ";
 string inputTwo = "Hello";
 string trimInput = inputOne.Trim();
 string trimInput2 = inputTwo.TrimStart();
+string triminput3 = inputTwo.Trim().Substring(0, 4);
 Console.WriteLine($"{inputTwo}, {inputOne}"); 
 Console.WriteLine($"{trimInput} and {trimInput2}");
+Console.WriteLine(triminput3);
 
 string greet = "Good Evening, ";
 string myName = "Gregory";

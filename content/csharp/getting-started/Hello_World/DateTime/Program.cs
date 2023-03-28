@@ -19,7 +19,7 @@
 DateTime birthDate = new DateTime(1996, 5, 25);
 DateTime todaysDate = DateTime.Today;
 var age = todaysDate - birthDate;
-double days = age.TotalDays / 365.24;
+double days = age.TotalDays;
 double daysToNextAnniversary = 10000 - (days % 10000);
 
 
