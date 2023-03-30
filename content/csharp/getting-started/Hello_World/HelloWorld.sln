@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DateTime", "DateTime\DateTi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkingWithConditionalStatements", "WorkingWithConditionalStatements\WorkingWithConditionalStatements.csproj", "{2A90CA55-30D5-41EE-8F4E-27F328E97974}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkingWithLogicalXpressions", "WorkingWithLogicalXpressions\WorkingWithLogicalXpressions.csproj", "{C772151F-835E-4A8B-B4C0-2198A619577B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,5 +38,9 @@ Global
 		{2A90CA55-30D5-41EE-8F4E-27F328E97974}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2A90CA55-30D5-41EE-8F4E-27F328E97974}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2A90CA55-30D5-41EE-8F4E-27F328E97974}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C772151F-835E-4A8B-B4C0-2198A619577B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C772151F-835E-4A8B-B4C0-2198A619577B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C772151F-835E-4A8B-B4C0-2198A619577B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C772151F-835E-4A8B-B4C0-2198A619577B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
