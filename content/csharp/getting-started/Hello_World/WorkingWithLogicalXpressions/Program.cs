@@ -1,5 +1,5 @@
 ﻿DateTime tellTime = DateTime.Now;
-int time = tellTime.Hour;
+var time = tellTime.Hour;
 
 if (time < 12)
 {
