@@ -78,4 +78,3 @@ if (userInput == "+")
         groceryList.Clear();
         Console.WriteLine($"{groceryList.Count}");
 }
-    
