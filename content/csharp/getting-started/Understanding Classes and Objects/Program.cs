@@ -1,10 +1,9 @@
 ﻿public class Program
 {
-    
         int versionNumber = 123; //this line defines a field.
         public static void Main()
         {
-//this line will not compile. Error ( An object reference is required for the non-static field,
+//this line will not compile. Error (An object reference is required for the non-static field,
 //method, or property 'Program.versionNumber'). 
 //Console.WriteLine($"Current version number {versionNumber}");
 
@@ -39,4 +38,56 @@ public class Speedometer
                         _currentSpeed = value; 
                 }
         }
+}
+
+//CONSTRUCTORS AND PROPERTY INITIALIZERS
+public Person()
+{
+        FirstName = string.Empty;
+}
+
+//Constructors can also take in parameters.
+public Person(DateTime dateOfBirth)
+{
+        DateOfBirth = dateOfBirth;
+        FirstName = string.Empty;
+}
+ // The best way to do this is:
+public class Person
+{
+        public Person(DateTime dateOfBirth)
+        {
+                DateOfBirth = dateOfBirth;
+        }
+        public string FirstName { get; set; }
+        public string LastName { get; set; }
+        public DateTime DateOfBirth { get; set; }
+        
+}
+
+//COMPOSITION
+public class Company
+{
+        public string Name { get; set; }
+        public string StreetAddress { get; set; }
+        public string City { get; set; }
+        public string State { get; set; }
+        public string PostalCode { get; set; }
+        public string Country { get; set; }
+}
+// Composition allows you to create your own type like string or int in order suit what you want to the class for.
+// in this case, we'll create an 'Address' type to take in addresses.
+public class Address
+{
+        public string StreetAddress { get; set; }
+        public string City { get; set; }
+        public string State { get; set; }
+        public string PostalCode { get; set; }
+        public string Country { get; set; }
+}
+
+public class Person
+{
+        public string FirstName { get; set; }
+        public Address ShippingAddress { get; set; }
 }
