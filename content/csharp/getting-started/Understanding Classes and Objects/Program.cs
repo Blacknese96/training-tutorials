@@ -89,5 +89,7 @@ public class Address
 public class Person
 {
         public string FirstName { get; set; }
+        
+        //In this 'Address' is used as a type. 
         public Address ShippingAddress { get; set; }
 }
